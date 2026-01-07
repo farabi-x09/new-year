@@ -51,6 +51,15 @@ header .div_p p{
 
 
 
+/* Main section styling */
+
+
+.main_section{
+    margin-top: 100px;
+}
+.main_section p{
+    color: #444343;
+}
 .mani_sec_2{
     display: flex;
     padding: 50px;
@@ -78,4 +87,61 @@ header .div_p p{
 }
 .main_sec_content{
     margin-top: 200px;
+}
+/* 2nd section styling */
+
+.second_sec {
+    width: 1600px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    /* align-items: center; */
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+.second_sec h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.card{
+    display: flex;
+    /* align-items: center; */
+    /* text-align: center; */
+    /* border: 2px solid black; */
+    justify-content: space-around;
+}
+.card h3{
+    font-size: 25px;
+}
+.card p{
+    font-size: 20px;
+    margin: 16px 0;
+    color: #737272;
+   
+}
+/* Third Section */
+.thard_sec_content{
+    background: linear-gradient(90.00deg, rgba(241, 91, 34, 1),rgba(241, 91, 34, 0) 100%), url(images/watch.png);
+    width: 1200px;
+    height: 300px;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    margin: 50px auto;
+      border-radius: 20px;  
+    overflow: hidden; 
+    
+}
+.thard_sec_content{
+    padding: 70px;
+}
+.thard_sec_h2{
+    color: white;
+    font-size: 28px;
+    width: 600px;
+}
+.thard_sec_content button{
+    margin-top: 20px;
+    color: rgba(241, 91, 34, 1);
+    background-color: white;
+    font-weight: bold;
 }
