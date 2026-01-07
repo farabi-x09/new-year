@@ -48,3 +48,34 @@ header .div_p p{
     font-size: 16px;
     text-align: right;
 }
+
+
+
+.mani_sec_2{
+    display: flex;
+    padding: 50px;
+    /* border: 1px solid black; */
+    align-items: center;
+    gap: 80px;
+    /* margin: 0 auto; */
+}
+.main_section .mani_sec_2{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+#h2{
+    width: 400px;
+    font-size: 35px;
+}
+#p{
+    width: 400px;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 20px 0;
+}
+.points p{
+    margin-bottom: 20px;
+}
+.main_sec_content{
+    margin-top: 200px;
+}
