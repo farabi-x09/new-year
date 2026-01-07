@@ -145,3 +145,55 @@ header .div_p p{
     background-color: white;
     font-weight: bold;
 }
+/* Footer Section */
+footer{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    max-width: 2000px;
+    /* max-height: 400px; */
+    margin: 100px auto 0;
+    padding: 100px 100px;
+    justify-content: space-around;
+}
+input[type="text"]{
+  width: 250px;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+background-color: black;
+  /* outline: none; */
+  color: white;
+  margin: 10px 0;
+}
+footer h4{
+    font-size:25px ;
+}
+footer .btn{
+    margin-top: 10px;
+    background-color: white;
+    color: #F15B22;
+    font-weight: bold;
+}
+footer h2{
+    font-size: 40px;
+}
+footer p{
+    width: 470px;
+    margin: 20px 0;
+    line-height: 25px;
+}
+footer .icon{
+    margin-top: 20px;
+    /* font-size: 24px; */
+    cursor: pointer;
+    display: flex;
+    gap: 15px;
+}
+.foter_div{
+    /* margin: 0px auto; */
+    /* align-items: center; */
+
+
+}
